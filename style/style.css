@@ -1,4 +1,46 @@
 body{background-color:#abd8c0;
         color:#007bff}
 footer {position:absolute;bottom:0;border:2px solid white }
+.btn{
+    color:whitesmoke;
+    cursor:pointer;
+    display:block;
+    margin:0 auto 2em;
+    max-width:160px;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    width:100%;
+    height:70px;
+   
     
+    background:purple;
+    transition:all 150ms linear;
+}
+.btn-3:hover{
+    background-color:pink;
+}
+
+body{background-color:#abd8c0;
+        color:#007bff}
+footer {position:absolute;bottom:0;border:1px solid white }
+.flagColumn {
+    float: left;
+    height: 1.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 33%;
+    z-index: 1;
+}
+.flagColumn:hover {
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+}
+.flagColumn:hover span {
+    background-color: yellow;
+    display: inline-block;
+    height: 100%;
+}
+
